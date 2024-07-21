@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Modal, Button, Form, Row, Col } from "react-bootstrap"
-import PaymentSuccessModal from "./PaymentSuccessModal" // Import the new component
+import PaymentSuccessModal from "./PaymentSuccessModal"
 
 function Payment_Form2({ show, closeModal }) {
   const [cardData, setCardData] = useState({
@@ -22,15 +22,15 @@ function Payment_Form2({ show, closeModal }) {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    // Add your logic to handle form submission, e.g., send payment details
+
     console.log("Payment details submitted:", cardData)
-    // Show the confirmation modal
+
     setShowConfirmationModal(true)
   }
 
   const handleCloseConfirmationModal = () => {
     setShowConfirmationModal(false)
-    closeModal() // Close Payment_Form2 modal
+    closeModal()
   }
 
   return (

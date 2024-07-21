@@ -1,6 +1,6 @@
 import React from "react"
 import Carousel from "react-bootstrap/Carousel"
-import "./App.css" // Import the custom CSS file
+import "./App.css"
 
 function Home_Carousel() {
   return (

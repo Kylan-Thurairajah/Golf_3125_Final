@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom" // Import Link from react-router-dom
+import { Link } from "react-router-dom"
 import Navigation from "./Navigation"
 import Home_About from "./Home_About"
 import Home_Benefits from "./Home_Benefits"
@@ -13,11 +13,7 @@ function Home() {
   return (
     <>
       <div className="image-container">
-        <img
-          src="golf-ball.jpg" // Replace with your image URL
-          alt="Full Size"
-          className="main-img"
-        />
+        <img src="golf-ball.jpg" alt="Full Size" className="main-img" />
         <div className="text-overlay">
           <div className="oswald-text text-large">GOLF CLUB 176</div>
           <div className="oswald-text text-small">-Swing Into Serenity-</div>

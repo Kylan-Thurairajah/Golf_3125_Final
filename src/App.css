@@ -5,6 +5,7 @@
   width: 100%;
   font-weight: 500;
 }
+
 .home-about-h3 {
   padding-top: 35px;
   font-size: 115px !important;
@@ -32,13 +33,13 @@
   margin-top: 5px;
   right: 0;
   background-color: rgb(181, 137, 55);
-  transition: width 0s; /* Smooth transition */
+  transition: width 0s;
 }
 
 .nav-link-custom:hover::after {
-  width: 100%; /* Full width on hover */
-  left: 0; /* Adjust to align properly */
-  right: auto; /* Reset right */
+  width: 100%;
+  left: 0;
+  right: auto;
 }
 
 .image-container {
@@ -212,8 +213,8 @@
 .footer-item img {
   display: block;
   margin: 0 auto 10px;
-  width: 20px; /* Adjust the size as needed */
-  height: 20px; /* Adjust the size as needed */
+  width: 20px;
+  height: 20px;
 }
 
 .about-content {
@@ -257,25 +258,25 @@
 }
 
 .custom-carousel {
-  max-height: 650px; /* Adjust the max height as needed */
+  max-height: 650px;
   overflow: hidden;
 }
 
 .custom-carousel img {
-  max-height: 650px; /* Adjust the max height as needed */
+  max-height: 650px;
   object-fit: scale-down;
 }
 
 .custom-carousel .carousel-control-prev,
 .custom-carousel .carousel-control-next {
-  width: 5%; /* Adjust as needed */
+  width: 5%;
 }
 
 .custom-carousel .carousel-control-prev-icon,
 .custom-carousel .carousel-control-next-icon {
   display: inline-block;
-  width: 3rem; /* Adjust size as needed */
-  height: 3rem; /* Adjust size as needed */
+  width: 3rem;
+  height: 3rem;
   background-size: 100%, 100%;
   background-repeat: no-repeat;
 }
@@ -305,32 +306,29 @@
 
 .custom-carousel .carousel-control-prev-icon:hover,
 .custom-carousel .carousel-control-next-icon:hover {
-  background-color: transparent; /* Remove the grey box */
+  background-color: transparent;
 }
 
 .custom-carousel .carousel-caption {
-  top: 81%; /* Position at the top */
-  bottom: auto; /* Override default bottom positioning */
-  transform: translateY(0); /* Adjust transform if necessary */
-  width: 100%; /* Make sure it takes the full width */
-  padding: 20px; /* Add some padding */
-  text-align: center; /* Center-align the text */
+  top: 81%;
+  bottom: auto;
+  transform: translateY(0);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
   left: 0;
   right: 0;
   margin: 0 auto;
 }
+
 .faceted-search-background {
   background-color: rgb(164, 127, 56);
-  padding: 20px; /* Add padding if needed for better spacing */
-  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .faceted-search-background .form-check-label {
-  color: rgb(
-    255,
-    255,
-    251
-  ); /* Ensure text is readable against the black background */
+  color: rgb(255, 255, 251);
 }
 
 .faceted-filter-form .form-check-input:checked {
@@ -342,7 +340,6 @@
   color: white;
 }
 
-/* App.css */
 .service-card-background {
   padding: 20px;
   border-radius: 10px;
@@ -378,14 +375,13 @@
 
 .service-bottom-text {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-/* App.css */
 .card-img-custom {
   width: 100%;
-  height: 200px; /* Set the desired height */
-  object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+  height: 200px;
+  object-fit: cover;
 }
 
 .membership-card {
@@ -430,35 +426,27 @@
   text-align: center;
 }
 
-/* PaymentForm.css */
-
-/* Style for modal body */
 .modal-body {
   padding: 20px;
 }
 
-/* Style for form labels */
 .form-label {
   font-weight: bold;
 }
 
-/* Style for form controls */
 .form-control {
   margin-bottom: 15px;
 }
 
-/* Style for submit button */
 .submit-btn {
   margin-top: 20px;
 }
 
-/* Style for modal footer */
 .modal-footer {
-  justify-content: flex-start; /* Align buttons to the left */
+  justify-content: flex-start;
 }
 
-/* App.css */
 .small-accordion {
-  width: 50%; /* Adjust this value to make it smaller or larger */
-  margin: 0 auto; /* Center the accordion */
+  width: 50%;
+  margin: 0 auto;
 }

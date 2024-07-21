@@ -1,5 +1,5 @@
 import React from "react"
-import "./App.css" // Import your CSS file for styling
+import "./App.css"
 
 function Home_Benefits() {
   return (

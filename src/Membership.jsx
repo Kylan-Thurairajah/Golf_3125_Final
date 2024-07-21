@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { Card, Button, Container, Row, Col, Modal } from "react-bootstrap"
 import Home_About from "./Home_About"
-import Payment_Form from "./Payment_Form" // Import the new PaymentForm component
-import "./App.css" // Ensure this import is present to apply your CSS
+import Payment_Form from "./Payment_Form"
+import "./App.css"
 
 function Membership() {
   const [showModal, setShowModal] = useState(false)
@@ -20,11 +20,7 @@ function Membership() {
   return (
     <>
       <div className="about-image-container">
-        <img
-          src="extra.jpg" // Replace with your image URL
-          alt="Full Size"
-          className="about-img"
-        />
+        <img src="extra.jpg" alt="Full Size" className="about-img" />
         <div className="membership-text-overlay">
           <div className="oswald-text about-text-large">Memberships</div>
           <div className="oswald-text about-text-small">-Join Us-</div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Modal, Button, Form } from "react-bootstrap"
-import Payment_Form2 from "./Payment_Form2" // Import the new component
-import "./App.css" // Import your custom CSS file
+import Payment_Form2 from "./Payment_Form2"
+import "./App.css"
 
 function PaymentForm({ showModal, closeModal, selectedPlan }) {
   const [formData, setFormData] = useState({
@@ -11,7 +11,7 @@ function PaymentForm({ showModal, closeModal, selectedPlan }) {
     address: "",
   })
 
-  const [showStep2Modal, setShowStep2Modal] = useState(false) // State for the next step modal
+  const [showStep2Modal, setShowStep2Modal] = useState(false)
 
   const handleInputChange = (event) => {
     const { name, value } = event.target
@@ -23,12 +23,12 @@ function PaymentForm({ showModal, closeModal, selectedPlan }) {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    setShowStep2Modal(true) // Show the next step modal after form submission
+    setShowStep2Modal(true)
   }
 
   const handleCloseStep2Modal = () => {
-    setShowStep2Modal(false) // Close the next step modal
-    closeModal() // Close the initial payment form modal if needed
+    setShowStep2Modal(false)
+    closeModal()
   }
 
   return (
