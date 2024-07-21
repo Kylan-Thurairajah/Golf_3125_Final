@@ -1,0 +1,464 @@
+.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: 500;
+}
+.home-about-h3 {
+  padding-top: 35px;
+  font-size: 115px !important;
+  font-weight: 600;
+  color: rgb(212, 154, 45);
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-link-custom {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background-color: rgb(181, 137, 55);
+  transition: width 0s; /* Smooth transition */
+}
+
+.nav-link-custom:hover::after {
+  width: 100%; /* Full width on hover */
+  left: 0; /* Adjust to align properly */
+  right: auto; /* Reset right */
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding-bottom: 100px;
+  margin-bottom: 165px;
+}
+
+.main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.text-large {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.text-small {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.about-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.about-text-large {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.about-text-small {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.oswald-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.home-about-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.left-column {
+  flex: 1;
+  padding-right: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.left-column img {
+  width: 500px;
+  height: auto;
+  display: block;
+}
+
+.right-column {
+  flex: 1;
+  padding-left: 0px;
+}
+
+.home-about-p {
+  font-size: 22px !important;
+  font-weight: 300;
+}
+
+.full-width-div {
+  width: 100%;
+  background-color: #f0eee3;
+  display: flex;
+}
+
+.section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.icon {
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.icon img {
+  max-width: 80px;
+  height: auto;
+}
+
+.section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.section p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.testimonial-carousel .carousel-item {
+  height: 100%;
+}
+
+.testimonial-carousel img {
+  height: 4000px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-item {
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.footer-item img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 20px; /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
+}
+
+.about-content {
+  margin-top: 50px;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.about-text-large {
+  text-align: center;
+  line-height: 1;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.about-text-small {
+  text-align: center;
+  line-height: 1.6;
+  margin: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.faceted-filter-form {
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.custom-carousel {
+  max-height: 650px; /* Adjust the max height as needed */
+  overflow: hidden;
+}
+
+.custom-carousel img {
+  max-height: 650px; /* Adjust the max height as needed */
+  object-fit: scale-down;
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  width: 5%; /* Adjust as needed */
+}
+
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  display: inline-block;
+  width: 3rem; /* Adjust size as needed */
+  height: 3rem; /* Adjust size as needed */
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+
+.custom-carousel .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+}
+
+.custom-carousel .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  outline: none;
+}
+
+.custom-carousel .carousel-control-prev:focus,
+.custom-carousel .carousel-control-next:focus,
+.custom-carousel .carousel-control-prev:hover,
+.custom-carousel .carousel-control-next:hover {
+  outline: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.custom-carousel .carousel-control-prev-icon:hover,
+.custom-carousel .carousel-control-next-icon:hover {
+  background-color: transparent; /* Remove the grey box */
+}
+
+.custom-carousel .carousel-caption {
+  top: 81%; /* Position at the top */
+  bottom: auto; /* Override default bottom positioning */
+  transform: translateY(0); /* Adjust transform if necessary */
+  width: 100%; /* Make sure it takes the full width */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center-align the text */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.faceted-search-background {
+  background-color: rgb(164, 127, 56);
+  padding: 20px; /* Add padding if needed for better spacing */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.faceted-search-background .form-check-label {
+  color: rgb(
+    255,
+    255,
+    251
+  ); /* Ensure text is readable against the black background */
+}
+
+.faceted-filter-form .form-check-input:checked {
+  background-color: black;
+  border-color: black;
+}
+
+.faceted-filter-form .form-check-input:checked + .form-check-label {
+  color: white;
+}
+
+/* App.css */
+.service-card-background {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.service-custom-card {
+  border: none;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.service-card-image {
+  width: 100%;
+  height: auto;
+}
+
+.service-card-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 1rem;
+}
+
+.service-top-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-bottom-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* App.css */
+.card-img-custom {
+  width: 100%;
+  height: 200px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+}
+
+.membership-card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.membership-card-title-1-3 {
+  background-color: rgb(66, 80, 62);
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.membership-card-title-2 {
+  background-color: rgb(107, 127, 47);
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.card-footer .btn {
+  margin-left: auto;
+}
+
+.membership-text-overlay {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* PaymentForm.css */
+
+/* Style for modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Style for form labels */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style for form controls */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Style for submit button */
+.submit-btn {
+  margin-top: 20px;
+}
+
+/* Style for modal footer */
+.modal-footer {
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+/* App.css */
+.small-accordion {
+  width: 50%; /* Adjust this value to make it smaller or larger */
+  margin: 0 auto; /* Center the accordion */
+}
